@@ -76,11 +76,11 @@
 	<distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.233.68.101:8081/nexus/content/repositories/snapshots</url>
+    <url>http://172.31.0.69:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.233.68.101:8081/nexus/content/repositories/releases</url>
+			<url>http://172.31.0.69:8081/nexus/content/repositories/releases</url>
 	               </repository>
 </distributionManagement>
 	
@@ -126,7 +126,7 @@
 
 <configuration>
 
-                <url>jdbc:mysql://13.233.68.101:3306</url>
+                <url>jdbc:mysql://172.31.0.69:3306</url>
 
                 <user>forexuser</user>
 
